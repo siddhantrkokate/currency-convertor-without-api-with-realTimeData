@@ -22,3 +22,8 @@ Like a google crawler does.
 8. - > And we will iterate over Element and then get actuual current conversion rate.
 
 9. - > Then we will print that for the user.
+
+10. - >  open cmd and change directory to the same location where RunThis.java file is.
+And then run these two commads:
+// 1: (javac -cp jsoup-1.19.1.jar RunThis.java)
+// 2: (java -cp .:jsoup-1.19.1.jar RunThis)
