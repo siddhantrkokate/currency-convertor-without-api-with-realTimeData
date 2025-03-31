@@ -1,0 +1,11 @@
+# functions List:
+
+1. convertCurrency() - it returns a double type value as an response (work in runtime)
+
+2. convertCurrency(Currency Code Of Currency Want To Convert, Currency Code of Currency in which you want to convert) -
+^ works in compile time
+
+3. convertCurrencyWithFormatting() - In runtime but shows an output on console
+
+4. convertCurrencyWithFormatting(urrency Code Of Currency Want To Convert, Currency Code of Currency in which you want to convert) - 
+^ work in compile time
