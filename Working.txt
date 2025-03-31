@@ -1,0 +1,24 @@
+# This project is to convert a currency to another currency
+# It takes 1 as a coin.
+# E.g., USD to INR - (85.1 INR) somthing
+
+# Appraoch
+
+1. We are using (Jsoup) which is a package which will help us to freely scrap the data from a site. 
+Like a google crawler does.
+
+2. We will work with every currency by govt. in this world. And User needs to input currency codes.
+
+3. - > Take inputs from user (1 = currency want to convert) and (2 = currency wants to covert in).
+
+4. - > Validate both inputs (maintain an array of all currency codes and check it has match if not then return false).
+
+5. - > Use Jsoup and embbed the both inputs in url. and make a url.
+
+6. - > Use Jsoup's fuction .connect('url').get() with this w'll get the site access.
+
+7. - > Using .select('classname') of Element class we will make an list of all select match elements
+
+8. - > And we will iterate over Element and then get actuual current conversion rate.
+
+9. - > Then we will print that for the user.
