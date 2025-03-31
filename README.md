@@ -31,23 +31,4 @@ After compilation, execute the following command to run the program:
 ```sh
 java -cp ".;jsoup-1.19.1.jar" RunThis.```
 
-### Step 4: The conversion result is displayed on the console.
-
-## Example Usage
-```sh
-Enter the currency code you want to convert from: USD
-Enter the currency code you want to convert to: INR
-Current exchange rate: 1 USD = 85.1 INR```
-
-### Notes
-- Ensure you have an active internet connection to fetch exchange rates.
-- Currency rates are scraped in real-time and may vary.
-- If you encounter an error, check that `jsoup-1.19.1.jar` is correctly placed in the same directory.
-- Make sure you are using a supported currency code; otherwise, the program will return an error.
-- Running the program in an IDE? Add `jsoup-1.19.1.jar` to the classpath in your IDE settings.
-
-### License
-This project is open-source and available for educational and personal use only.  
-Feel free to modify and distribute it, but please give proper credit.  
-Commercial use is not permitted without permission.
-
+Step 3: Run the Program
