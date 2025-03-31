@@ -23,13 +23,13 @@ This Java-based currency converter allows users to convert one currency to anoth
 Open Command Prompt (CMD) and navigate to the project directory where `RunThis.java` is located. Run the following command:
 
 ```sh
-javac -cp ".;jsoup-1.19.1.jar" RunThis.java
+javac -cp ".;jsoup-1.19.1.jar" RunThis.java.
 
-### Step 3: Run the Program
+### Step 1: Run the Program
 After compilation, execute the following command to run the program:
 
 ```sh
-java -cp ".;jsoup-1.19.1.jar" RunThis
+java -cp ".;jsoup-1.19.1.jar" RunThis.
 
 ### Step 4: The conversion result is displayed on the console.
 
