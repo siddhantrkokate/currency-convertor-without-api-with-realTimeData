@@ -3,6 +3,10 @@
 ## Overview
 This Java-based currency converter allows users to convert one currency to another using real-time exchange rates. It uses `Jsoup` for web scraping to fetch current exchange rates from online sources.
 
+| Demo 1 INR (Indian Rs) to PKR (Pakistani Rs) | Demo 2 USD (US Doller) to INR (Indian Rs) |
+|--------|--------|
+| ![Demo 1](images/inr-pkr.png) | ![Demo 2](images/usd-inr.png) |
+
 ## Features
 - Convert currency in real-time (`convertCurrency()`).
 - Compile-time conversion with specified currency codes (`convertCurrency(fromCurrency, toCurrency)`).
