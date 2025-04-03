@@ -1,4 +1,4 @@
-# Currency Converter
+# Real-Time Currency Converter | Web Scraping for Live Exchange Rates (No API) | Java | Jsoup
 
 ## Overview
 This Java-based currency converter allows users to convert one currency to another using real-time exchange rates. It uses `Jsoup` for web scraping to fetch current exchange rates from online sources.
