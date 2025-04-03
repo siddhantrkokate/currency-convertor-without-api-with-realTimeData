@@ -119,7 +119,7 @@ public class CurrecncyConvertor extends RealJsoup{
     // function: for runtime input
     double convertCurrency(){
         String inputs[] = codeInputer();
-        return currencyCovertor(input[0],input[1]);
+        return currencyCovertor(inputs[0],inputs[1]);
     }
 
 
